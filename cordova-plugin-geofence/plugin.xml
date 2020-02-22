@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8'?>
+<plugin id="cordova-plugin-geofence" version="0.0.1" 
+    xmlns="http://apache.org/cordova/ns/plugins/1.0" 
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <name>cordova-plugin-geofence</name>
+    <js-module name="GeofenceSwift" src="www/GeofenceSwift.js">
+        <clobbers target="geofenceswift" />
+    </js-module>
+</plugin>
